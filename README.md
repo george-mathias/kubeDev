@@ -69,3 +69,7 @@
 >- **ls -l > arquivo.extensão**: escreve o output em um arquivo
 >- **ls -l >> arquivo.extensão**: insere as novas informações sem sobrescrever o conteúdo
 >- **mkdir pasta/subpasta 2> arquivo.extensão**: escreve o err em um arquivo
+
+>### **Pontos de Montagem**
+>- **mount /dev/sda1 /mnt/hd**: "monta" o dispositivo e o torna acessível
+>- **unmount /mnt/hd**: "desmonta" o dispositivo(deve estar fora para realizar este comando)
