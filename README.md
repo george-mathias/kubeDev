@@ -63,3 +63,9 @@
 >- **grep + termo pesquisa + arquivo.extensão**: pesquisa dentro do arquivo com base no termo(case sensitive)
 >- **grep -n + termo pesquisa + arquivo.extensão**: pesquisa dentro do arquivo com base no termo(case sensitive) e informa o número da linha
 >- **grep -n -i + termo pesquisa + arquivo.extensão**: pesquisa dentro do arquivo com base no termo(ignore case sensitive) e informa o número da linha
+
+>### **Execução de comandos, redirecionamentos e pipes**
+>- **|**: ls -l | grep erro: lista os arquivos que contém o nome erro
+>- **ls -l > arquivo.extensão**: escreve o output em um arquivo
+>- **ls -l >> arquivo.extensão**: insere as novas informações sem sobrescrever o conteúdo
+>- **mkdir pasta/subpasta 2> arquivo.extensão**: escreve o err em um arquivo
