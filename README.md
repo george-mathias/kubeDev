@@ -81,3 +81,13 @@
 >- **sudo apt install + pacote**: instala o pacote no SO(sudo apt install nodejs)
 >- **sudo apt remove + pacote**: desinstala o pacote no SO(sudo apt remove nodejs)
 >- **sudo apt search + pacote**: realiza busca do pacote(sudo apt search nodejs)
+
+>### **Comandos para gerenciamento de processos**
+>- **ps**: lista todos os processos ativos gerenciados pelo terminal
+>- **ps -a**: lista todos os processos ativos gerenciados pelo terminal de todos os usuários
+>- **ps -ax**: lista todos os processos ativos não gerenciados pelo terminal
+>- **ps -aux**: lista todos os processos ativos e o nome do usuário que criou o processo
+>- **ps -x**: lista todos os processos ativos
+>- **kill + id-processo**: finaliza o processo
+>- **top**: lista todos os processos e detalha os processos
+>- **htop**: o mesmo que o top, porém, com uma interface mais elaborada
