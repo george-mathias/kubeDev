@@ -73,3 +73,11 @@
 >### **Pontos de Montagem**
 >- **mount /dev/sda1 /mnt/hd**: "monta" o dispositivo e o torna acessível
 >- **unmount /mnt/hd**: "desmonta" o dispositivo(deve estar fora para realizar este comando)
+
+>### **Gerenciamento de pacotes no Linux**
+>- **sudo dpkg -i + arquivo.extensão**: sudo dpkg -i code_1.63.1-1639448820_amd64.deb
+>- **sudo dpkg -r + arquivo.extensão**: sudo dpkg -i code_1.63.1-1639448820_amd64.deb
+>- **sudo apt update**: atualiza os repositórios no SO
+>- **sudo apt install + pacote**: instala o pacote no SO(sudo apt install nodejs)
+>- **sudo apt remove + pacote**: desinstala o pacote no SO(sudo apt remove nodejs)
+>- **sudo apt search + pacote**: realiza busca do pacote(sudo apt search nodejs)
